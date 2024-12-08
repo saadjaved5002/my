@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FORMS</title>
+	<style type="text/css">
+footer{
+  
+    bottom: 0;
+    text-align: right;
+    margin: 8px;
+
+  }
+  footer:hover{
+    color: yellow;
+  }
+  a{
+  color: green;
+ }
+ a:hover{
+  color: yellow;
+ }
+ 
+    body{
+        background-color: lightcoral ;
+    }
+    
+    body{
+        font-family: serif;
+
+            
+    }
+div{
+    background-color:lightgoldenrodyellow ;
+}
+h1{
+    color: navy;
+}
+h2{
+    color: green;
+}
+
+p{
+    color: black;
+}
+h3{
+    color: darkolivegreen;
+}
+h4{
+    color: darkgoldenrod;
+}
+h5{
+    color: darkcyan;
+}
+</style>
+</head>
+
+<body>
+<h1><B><U>FORMS</U></B></h1>
+<div>
+	
+	<h2>Explanation</h2>
+	<p>Forms in HTML are used to collect user input and send it to a server for processing. They provide an interface for users to enter data, such as text, passwords, selections, and more. Forms are widely used in websites for tasks like login pages, search functionality, and surveys.</p>
+	<h3>Types of Forms</h3>
+	<form>
+	<ul>
+		<li><h4><B>Text Input</B></h4>
+			<label for="name">Name: </label>
+			<input type="text"id= "name" name="name">	
+		</li>
+		<li><h4><B>Password input</B></h4>
+			<label for="password">Password: </label>
+			<input type="password" id ="password" name="password">
+		</li>
+		<li><h4><B>Radio Buttons</B></h4>
+			<label>
+				<input type="radio" name="gender" value="male">Male
+				<input type="radio" name="gender" value="female">Female
+			</label>
+
+		</li>
+		<li><h4><B>Checkbox</B></h4>
+			<label>
+				<input type="Checkbox" name="True">True
+				<input type="Checkbox" name="False">False
+			</label>
+		</li>
+		<li><h4><B>Dropdown</B></h4>
+			<label for="Sports">Sports: </label>
+			<select id="Sports"name="Sports">
+			<option value="Table Tennis">Table Tennis</option>
+			<option value="Hockey">Hockey</option>
+			<option value="Cricket">Cricket</option>
+		</select>
+		</li>
+		<li><h4><B>Textarea</B></h4>
+			<label for="message">Cover Letter: </label>
+			<textarea id="message" name="message" rows="5"cols
+			20></textarea>
+		</li>
+		<li><h4><B>Submit Button</B></h4>
+		<button type="Submit">Submit</button>
+		</li>
+		<li><h4><B>Reset Button</B></h4>
+			<button type="Reset">Reset</button>
+		</li>
+
+	</ul>
+</form>
+</div>
+<footer>
+<p >&copy; 12/08/2024  SAAD JAVED. All rights reserved</p>
+</footer>
+</body>
+</html>
